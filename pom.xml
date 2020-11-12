@@ -150,4 +150,11 @@
         </plugins>
     </build>
 
+	<developers>
+		<developer>
+			<name>Darcio</name>
+			<email>darcio@darcio.com.br</email>
+		</developer>
+	</developers>
+
 </project>

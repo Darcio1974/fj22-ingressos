@@ -60,6 +60,7 @@ public class SessaoController {
 			return new ModelAndView("redirect:/admin/sala/" + form.getSalaId() + "/sessoes");	
 		}
 		
+		System.out.println("Sessao não foi salva!!!");
 		return form(form.getSalaId(), form);
 	}
 

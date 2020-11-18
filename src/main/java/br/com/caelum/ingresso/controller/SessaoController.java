@@ -60,7 +60,7 @@ public class SessaoController {
 			return new ModelAndView("redirect:/admin/sala/" + form.getSalaId() + "/sessoes");	
 		}
 		
-		System.out.println("Sessao não foi salva!!!");
+		System.out.println("Sessao não foi salva!!!"); //avaliar como incluir mensagem de erro
 		return form(form.getSalaId(), form);
 	}
 
